@@ -15,3 +15,6 @@ APi authenticate with JWT, Typescript and TypeORM.
 11 - Configure tsconfig... 
 "emitDecoratorMetadata": true,
 "experimentalDecorators": true,
+12 - Create and config ormconfig file
+13 - Execute 
+
