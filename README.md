@@ -12,9 +12,8 @@ APi authenticate with JWT, Typescript and TypeORM.
 8 - Install yarn add typeorm reflect-metadata
 9 - Install (Its not necessary) yarn add @types/node -D
 10 - Install (PostgreSQL) yarn add pg
-11 - Configure tsconfig... 
+11 - Install yarn dotenv 
+12 - Configure tsconfig... 
 "emitDecoratorMetadata": true,
 "experimentalDecorators": true,
-12 - Create and config ormconfig file
-13 - Execute 
-
+13 - Create and config ormconfig file.... updated typeorm now is data-source file
