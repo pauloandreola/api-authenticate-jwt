@@ -1,10 +1,9 @@
-import express from "express";
-import { AppDataSource } from "../data-source";
+import express from 'express';
+import { AppDataSource } from './data-source';
 
-import { router } from "./routes";
+import { router } from './routes';
 
 AppDataSource.initialize().then(() => {
-
   const app = express();
   const port = process.env.PORT;
 
