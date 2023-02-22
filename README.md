@@ -1,6 +1,6 @@
 # api-authenticate-jwt
 
-APi authenticate with JWT, Typescript and TypeORM.
+APi authenticate with JWT, Typescript and TypeORM (Data Mapper).
 
 1 - Execute yarn init -Y
 2 - Install - yarn add typescript ts-node nodemon -D
@@ -17,3 +17,5 @@ APi authenticate with JWT, Typescript and TypeORM.
 "emitDecoratorMetadata": true,
 "experimentalDecorators": true,
 13 - Create and config ormconfig file.... updated typeorm now is data-source file
+14 - Configure no package.json - "typeorm": "typeorm-ts-node-commonjs", inside os scripts 
+15 - Execute yarn typeorm migration:create ./src/database/migrations/CreateUserTable to create a new migration
